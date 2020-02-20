@@ -7,7 +7,8 @@ const config = require('./config/config')
 const dbManager = require('./app/db/dbmanager')
 
 const dbService = new dbManager("wepapi");
-//cambios de base de datos
+
+// otro comentario
 const userService = require('./app/services/userService')
 
 app.set('llave', config.llave);
